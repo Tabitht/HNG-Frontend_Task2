@@ -13,22 +13,22 @@ export default function Header() {
     const navigate = useNavigate();
 
             const handleimageClick = () => {
-            navigate('../CheckoutPage/Checkout');
+            navigate('./CheckoutPage/Checkout');
         }
 
     return(
         <div>
             <Container>
                 <Row className="Row1">
-                    <Col><img src={icon2} alt="Nutify icon"></img><span className="nutify">Nutify</span></Col>
+                    <Col className="nutifyIcon"><img src={icon2} alt="Nutify icon"></img><span className="nutify">Nutify</span></Col>
                     <Col className="search">
                         <button>search products</button>
                     </Col>
                     <Col className="call">call us 24/7 +2348167208978</Col>
-                    <Col><img src={icon1} alt="Customer"></img></Col>
-                    <Col><img src={icon3} alt="Favourite"></img></Col>
+                    <Col><img src={icon1} alt="Customer" className="icon1"></img></Col>
+                    <Col><img src={icon3} alt="Favourite" className="icon2"></img></Col>
                     <Col>
-                    <img src={icon4} alt="Shopping cart" onClick={handleimageClick}></img>
+                    <img src={icon4} alt="Shopping cart" className="icon3" onClick={handleimageClick}></img>
                     </Col>
                 </Row>
                 <Row className="Row2">

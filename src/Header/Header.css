@@ -16,6 +16,29 @@
     top: 100px;
 
 }
+.icon1{
+    width: 70px;
+    height: 70px;
+    top: 15px;
+    left: 51px;
+    gap: 0px;
+    opacity: 0px;
+}
+.icon2{
+    width: 40px;
+    height: 40px;
+    top: 1px;
+    left: 84px;
+    gap: 0px;
+    opacity: 0px;
+}
+.icon3{
+    width: 40px;
+    height: 40px;
+    left: 163px;
+    gap: 0px;
+    opacity: 0px;
+}
 .nutify{
     font-family: 'itim', cursive;
     font-size: 64px;
@@ -29,6 +52,13 @@
     left: 121px;
     gap: 0px;
     opacity: 0px;
+}
+.component{
+    width: 40px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+
 }
 button{
     width: 387px;

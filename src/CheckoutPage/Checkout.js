@@ -15,7 +15,7 @@ export default function Checkout() {
     const navigate = useNavigate();
 
             const handlebuttonClick = () => {
-            navigate('../PaymentPage/Payment');
+            navigate('./PaymentPage/Payment');
         }
 
     return(
