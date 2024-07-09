@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a9a894f.css",
+    "main.js": "/static/js/main.91f808ed.js",
+    "static/media/HERO.png": "/static/media/HERO.c5063642232155eff261.png",
+    "static/media/Frame 16.png": "/static/media/Frame 16.58333b6a3fd2b0e395d9.png",
+    "static/media/Rectangle 9.png": "/static/media/Rectangle 9.8aa14ef07342fa5dd4c7.png",
+    "static/media/Rectangle 4.png": "/static/media/Rectangle 4.817f8ceebc20b42f47ba.png",
+    "static/media/Rectangle 2.png": "/static/media/Rectangle 2.1659fffbf95d1a40b84a.png",
+    "static/media/Rectangle 6.png": "/static/media/Rectangle 6.c3213d36854f95a21cc5.png",
+    "static/media/Rectangle 3.png": "/static/media/Rectangle 3.df8c2e8b77f04b5f9b84.png",
+    "static/media/Rectangle 8.png": "/static/media/Rectangle 8.1da05ff689159f3347d6.png",
+    "static/media/Rectangle 7.png": "/static/media/Rectangle 7.973483803444a7587829.png",
+    "static/media/Group 20.png": "/static/media/Group 20.e695ebe41ed0aa3fe884.png",
+    "static/media/Rectangle 1.png": "/static/media/Rectangle 1.0532e53caad73efb5125.png",
+    "static/media/Frame 2.png": "/static/media/Frame 2.3c2abf36546c01f644f8.png",
+    "static/media/Group 18.png": "/static/media/Group 18.1ef3b3ea5607153eb899.png",
+    "static/media/Ellipse 1.png": "/static/media/Ellipse 1.4b25fa0a00ed4ec98642.png",
+    "static/media/Ellipse 2.png": "/static/media/Ellipse 2.3e0ad528ae178b440fb7.png",
+    "index.html": "/index.html",
+    "main.4a9a894f.css.map": "/static/css/main.4a9a894f.css.map",
+    "main.91f808ed.js.map": "/static/js/main.91f808ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a9a894f.css",
+    "static/js/main.91f808ed.js"
+  ]
+}
