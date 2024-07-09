@@ -1,14 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./Checkout.css"
+import "./Checkout.css";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 import pic1 from "../images/Rectangle 7.png"
 import pic2 from "../images/Rectangle 1.png"
 import icon1 from "../icons/Remove.png"
-import icon2 from "../icons/Group 13.png"
+import icon2 from "../icons/Minus Sign (1).png"
+import icon3 from "../icons/Add.png"
 
 export default function Checkout() {
     return(
         <div>
+            <Header />
             <Container>
                 <Row>
                     <Col><img src={pic1} alt="Walnut"></img></Col>
@@ -18,7 +22,10 @@ export default function Checkout() {
                     </Col>
                     <Row>
                         <Col><img src={icon1} alt="Remove"></img></Col>
-                        <Col><img src={icon2} alt="Add to cart"></img></Col>
+                        <Col>Remove</Col>
+                        <Col><img src={icon2} alt="remove from cart"></img></Col>
+                        <Col>1</Col>
+                        <Col><img src={icon3} alt="Add to cart"></img></Col>
                     </Row>
                 </Row>
                 <Row>
@@ -33,10 +40,15 @@ export default function Checkout() {
                     <Col>$50</Col>
                 </Row>
                 <Row>
+                    <Link to="../PaymentPage/Payment">
                     <button>Checkout $50</button>
+                    </Link>
                 </Row>
+                <Link to="../HomepageBody/Desktop">
                 <button>Go Back</button>
+                </Link>
             </Container>
+            <Footer />
         </div>
     )
 }

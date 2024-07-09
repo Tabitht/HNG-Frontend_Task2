@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css"
-import icon1 from "./icons/Organic Food.png"
-import icon2 from "./icons/In Transit.png"
-import icon3 from "./icons/Facebook Circled.png"
-import icon4 from "./icons/TwitterX.png"
-import icon5 from "./icons/Instagram.png"
+import icon1 from "../icons/Organic Food.png"
+import icon2 from "../icons/In Transit.png"
+import icon3 from "../icons/Facebook Circled.png"
+import icon4 from "../icons/TwitterX.png"
+import icon5 from "../icons/Instagram.png"
 
 export default function Footer() {
     return(

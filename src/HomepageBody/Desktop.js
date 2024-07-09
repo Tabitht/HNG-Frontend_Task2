@@ -1,23 +1,23 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer"
-import "./Desktop.css"
-import pic1 from "./images/HERO.png";
-import pic2 from "./images/Frame 2.png";
-import pic3 from "./images/Ellipse 1.png";
-import pic4 from "./images/Ellipse 2.png";
-import pic5 from "./images/Rectangle 6.png";
-import pic6 from "./images/Rectangle 7.png";
-import pic7 from "./images/Rectangle 8.png";
-import pic8 from "./images/Rectangle 9.png";
-import pic9 from "./images/Frame 16.png";
-import pic10 from "./images/Rectangle 2.png";
-import pic11 from "./images/Group 18.png";
-import pic12 from "./images/Rectangle 1.png";
-import pic13 from "./images/Group 20.png";
-import pic14 from "./images/Rectangle 3.png";
-import pic15 from "./images/Rectangle 4.png";
+import Footer from "../Footer/Footer";
+import "./Desktop.css";
+import pic1 from "../images/HERO.png";
+import pic2 from "../images/Frame 2.png";
+import pic3 from "../images/Ellipse 1.png";
+import pic4 from "../images/Ellipse 2.png";
+import pic5 from "../images/Rectangle 6.png";
+import pic6 from "../images/Rectangle 7.png";
+import pic7 from "../images/Rectangle 8.png";
+import pic8 from "../images/Rectangle 9.png";
+import pic9 from "../images/Frame 16.png";
+import pic10 from "../images/Rectangle 2.png";
+import pic11 from "../images/Group 18.png";
+import pic12 from "../images/Rectangle 1.png";
+import pic13 from "../images/Group 20.png";
+import pic14 from "../images/Rectangle 3.png";
+import pic15 from "../images/Rectangle 4.png";
 //import pic16 from "./images/";
 //import pic11 from "./images/Ellipse 2.png";
 
