@@ -36,8 +36,8 @@ export default function Footer() {
                         </Col>
                         </Row>
                         <Row>
-                            <div className="head">About us</div>
-                            <div classNmae="about">At Nutify, we're passionate about providing the highest quality, 100% organic nuts and seeds to our customers. Our mission is to make healthy eating easy and accessible, without compromising on taste or quality.</div>
+                            <p className="head">About us</p>
+                            <p className="about">At Nutify, we're passionate about providing the highest quality, 100% organic nuts and seeds to our customers. Our mission is to make healthy eating easy and accessible, without compromising on taste or quality.</p>
                         </Row>
                     </Col>
                 </Row>

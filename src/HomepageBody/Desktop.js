@@ -37,12 +37,12 @@ export default function Desktop() {
             </Row>
             <Container className="mini">
                 <Row className="rowOne">
-                    <Col><img src={pic5} alt="grid Products" className="gridProducts"></img></Col>
-                    <Col><img src={pic6} alt="grid Products" className="gridProducts"></img></Col>
+                    <Col className="col-6"><img src={pic5} alt="grid Products" className="gridProducts"></img></Col>
+                    <Col className="col-6"><img src={pic6} alt="grid Products" className="gridProducts"></img></Col>
                 </Row>
                 <Row className="rowTwo">
-                    <Col><img src={pic7} alt="grid Products" className="gridProducts"></img></Col>
-                    <Col><img src={pic8} alt="grid Products" className="gridProducts"></img></Col>
+                    <Col className="col-6"><img src={pic7} alt="grid Products" className="gridProducts"></img></Col>
+                    <Col className="col-6"><img src={pic8} alt="grid Products" className="gridProducts"></img></Col>
                 </Row>
                 <Row className="rowThree">
                     <Col><img src={pic9} alt="grid Products" className="mainProducts"></img></Col>
