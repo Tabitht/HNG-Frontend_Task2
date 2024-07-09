@@ -1,0 +1,1 @@
+A simple static page for an online store
