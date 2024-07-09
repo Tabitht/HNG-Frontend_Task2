@@ -1,0 +1,36 @@
+.nutifyImage{
+    width: 1440px;
+    height: 773px;
+    top: 180px;
+    background: #FFFFFF;
+}
+.mini{
+    background-color: #FBF4F1;
+
+}
+.rowOne{
+    width: 866px;
+    height: 590px;
+    border: 1px;
+}
+.rowTwo{
+    width: 866px;
+    height: 590px;
+}
+.rowThree{
+    width: 1070;
+    height: 400px;
+}
+.products{
+    width: 335px;
+    height: 440px;
+    top: 1px;
+
+}
+.gridProducts{
+    width: 404px;
+    height: 590px;
+    top: 155px;
+    left: 102px;
+    Border: 1px
+}
