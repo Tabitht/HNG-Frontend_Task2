@@ -25,9 +25,9 @@ export default function Header() {
                         <button>search products</button>
                     </Col>
                     <Col className="call">call us 24/7 +2348167208978</Col>
-                    <Col><img src={icon1} alt="Customer" className="icon1"></img></Col>
-                    <Col><img src={icon3} alt="Favourite" className="icon2"></img></Col>
-                    <Col>
+                    <Col className="col-1"><img src={icon1} alt="Customer" className="icon1"></img></Col>
+                    <Col className="col-1"><img src={icon3} alt="Favourite" className="icon2"></img></Col>
+                    <Col className="col-1">
                     <img src={icon4} alt="Shopping cart" className="icon3" onClick={handleimageClick}></img>
                     </Col>
                 </Row>

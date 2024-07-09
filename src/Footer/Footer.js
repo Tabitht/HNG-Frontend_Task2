@@ -13,9 +13,8 @@ export default function Footer() {
             <Container>
                 <Row>
                     <Col>
-                        <Row><img src={icon1} alt="organic food" className="organicFood"></img>100% Organic <p className="details1">We source our  products from certified organic farms and suppliers</p></Row>
-                        <Row className="first">
-                            <div>Need Help?</div>
+                        <Row><Col><img src={icon1} alt="organic food" className="organicFood"></img><span className="organic">100% Organic</span> <p className="details1">We source our  products from certified organic farms and suppliers</p></Col></Row>                        <Row className="first">
+                            <div className="head">Need Help?</div>
                             <ul>
                                 <li>Chat with us</li>
                                 <li>Help Center</li>
@@ -30,14 +29,15 @@ export default function Footer() {
                         </Row>
                     </Col>
                     <Col>
-                        <Row><img src={icon2} alt="shipping" className="shipping"></img>Shipping
-                        <div>
-                            Fastst Delivery nationwide
-                        </div>
+                        <Row><Col><img src={icon2} alt="shipping" className="shipping"></img><span className="organic">Shipping</span>
+                        <p className="details1">
+                            Fastest Delivery nationwide
+                        </p>
+                        </Col>
                         </Row>
                         <Row>
-                            <div>About us</div>
-                            <div>At Nutify, we're passionate about providing the highest quality, 100% organic nuts and seeds to our customers. Our mission is to make healthy eating easy and accessible, without compromising on taste or quality.</div>
+                            <div className="head">About us</div>
+                            <div classNmae="about">At Nutify, we're passionate about providing the highest quality, 100% organic nuts and seeds to our customers. Our mission is to make healthy eating easy and accessible, without compromising on taste or quality.</div>
                         </Row>
                     </Col>
                 </Row>
