@@ -18,10 +18,9 @@ import pic12 from "../images/Rectangle 1.png";
 import pic13 from "../images/Group 20.png";
 import pic14 from "../images/Rectangle 3.png";
 import pic15 from "../images/Rectangle 4.png";
-//import pic16 from "./images/";
-//import pic11 from "./images/Ellipse 2.png";
 
 export default function Desktop() {
+    
     return (
     <div className="destopHomePage">
         <Header />

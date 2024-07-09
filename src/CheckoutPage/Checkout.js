@@ -3,13 +3,21 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Checkout.css";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import pic1 from "../images/Rectangle 7.png"
-import pic2 from "../images/Rectangle 1.png"
-import icon1 from "../icons/Remove.png"
-import icon2 from "../icons/Minus Sign (1).png"
-import icon3 from "../icons/Add.png"
+import pic1 from "../images/Rectangle 7.png";
+import pic2 from "../images/Rectangle 1.png";
+import icon1 from "../icons/Remove.png";
+import icon2 from "../icons/Minus Sign (1).png";
+import icon3 from "../icons/Add.png";
+import { useNavigate } from 'react-router-dom';
 
 export default function Checkout() {
+
+    const navigate = useNavigate();
+
+            const handlebuttonClick = () => {
+            navigate('../PaymentPage/Payment');
+        }
+
     return(
         <div>
             <Header />
@@ -40,13 +48,9 @@ export default function Checkout() {
                     <Col>$50</Col>
                 </Row>
                 <Row>
-                    <Link to="../PaymentPage/Payment">
-                    <button>Checkout $50</button>
-                    </Link>
+                    <button onClick={handlebuttonClick}>Checkout $50</button>
                 </Row>
-                <Link to="../HomepageBody/Desktop">
                 <button>Go Back</button>
-                </Link>
             </Container>
             <Footer />
         </div>

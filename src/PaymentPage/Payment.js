@@ -3,14 +3,20 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Payment.css"
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import icon1 from "../icons/Group 22.png"
-import icon2 from "../icons/Ellipse 9.png"
-import pic1 from "../images/Rectangle 1.png"
-import pic2 from "../images/Rectangle 7.png"
-
-
+import icon1 from "../icons/Group 22.png";
+import icon2 from "../icons/Ellipse 9.png";
+import pic1 from "../images/Rectangle 1.png";
+import pic2 from "../images/Rectangle 7.png";
+import { useNavigate } from 'react-router-dom';
 
 export default function Payment(){
+
+    const navigate = useNavigate();
+
+    const handleImageClick = () => {
+        navigate('../CheckoutPage/Checkout');
+    }
+
     return(
         <div>
             <Header />
@@ -43,9 +49,7 @@ export default function Payment(){
                 <Row>By Clicking ‘Confirm Payment’ I Agree To The Store Terms and Services</Row>
                 <Row>
                     <Col>
-                    <Link to="../HomepageBody/Desktop">
-                    <button>Back</button>
-                    </Link>
+                    <button onClick={handleImageClick}>Back</button>
                     </Col>
                     <Col><button>Confirm Payment $50</button></Col>
                 </Row>
