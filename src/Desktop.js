@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Header from "./Header";
+import Footer from "./Footer"
 import "./Desktop.css"
 import pic1 from "./images/HERO.png";
 import pic2 from "./images/Frame 2.png";
@@ -62,6 +63,7 @@ export default function Desktop() {
                     <Col><img src={pic15} alt="list Products" className="listProducts"></img></Col>
                 </Row>
         </Container>
+        <Footer />
     </div>
     )
 }

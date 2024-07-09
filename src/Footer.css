@@ -1,0 +1,49 @@
+.organicFood{
+    width: 150px;
+    height: 150px;
+    top: 139px;
+    left: 20px;
+    gap: 0px;
+    opacity: 0px;
+}
+.shipping{
+    width: 150px;
+    height: 150px;
+    top: 139px;
+    left: 910px;
+    gap: 0px;
+    opacity: 0px;
+}
+.details1{
+    width: 380px;
+    height: 58px;
+    top: 235px;
+    left: 170px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Itim", cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #000000;
+
+}
+.first{
+    font-family: "Itim", cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color:#000000;
+
+}
+.second{
+    font-family: "Itim", cursive;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #000000;
+
+}
