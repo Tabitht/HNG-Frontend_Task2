@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Header from "./Header";
-import Footer from "./Footer"
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer"
 import "./Desktop.css"
 import pic1 from "./images/HERO.png";
 import pic2 from "./images/Frame 2.png";
