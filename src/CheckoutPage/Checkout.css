@@ -1,0 +1,16 @@
+.Container{
+    background-color: #FAE8DE;
+    width: Fixed (1,440px)px;
+height: Hug (3,669px)px;
+top: -500px;
+left: 181px;
+gap: 43px;
+opacity: 0px;
+}
+.mini1{
+    width: Hug (1,070px)px;
+height: Fixed (914px)px;
+gap: 10px;
+opacity: 0px;
+background-color: white;
+}

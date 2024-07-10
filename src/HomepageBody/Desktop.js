@@ -31,9 +31,9 @@ export default function Desktop() {
                 </Col>
             </Row>
             <Row className="Row3">
-                <Col><img src={pic2} alt="display products" className="products"></img></Col>
-                <Col><img src={pic3} alt="display Products" className="products"></img></Col>
-                <Col><img src={pic4} alt="display Products" className="products"></img></Col>
+                <Col className="col-md-6"><img src={pic2} alt="display products" className="products"></img></Col>
+                <Col className="col-md-6"><img src={pic3} alt="display Products" className="products"></img></Col>
+                <Col className="col-md-12"><img src={pic4} alt="display Products" className="products"></img></Col>
             </Row>
             <Container className="mini">
                 <Row className="rowOne">
@@ -49,7 +49,7 @@ export default function Desktop() {
                 </Row>
 
             </Container>
-                <Row>
+                <Row className="Row4">
                     <Col><img src={pic10} alt="list Products" className="listProducts"></img></Col>
                     <Col><img src={pic11} alt="list Products" className="listProducts"></img></Col>
                 </Row>

@@ -47,3 +47,54 @@ opacity: 0px;
     left: 102px;
     Border: 1px
 }
+@media(max-width: 600px){
+    .nutifyImage{
+        width: 360px;
+    height: 186px;
+    top: 134px;
+    gap: 0px;
+    opacity: 0px;
+    }
+    .row3{
+      justify-content: space-evenly;  
+    }
+    .products{
+        width: 146px;
+    height: 300px;
+    top: 360px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    }
+    .rowOne{
+        justify-content: space-around;
+    }
+    .gridProducts{
+        width: 129px;
+    height: 300px;
+    top: 1063px;
+    left: 42px;
+    margin: 27px,30px, 27px, 30px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    }
+    .mainProducts{
+         width: 429px;
+    height: 250px;
+    top: 1063px;
+    }
+    .Row4{
+        justify-content: space-evenly;
+    }
+    .listProducts{
+width: 145px;
+height: 300px;
+top: 672px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+    }
+}

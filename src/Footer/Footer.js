@@ -12,7 +12,7 @@ export default function Footer() {
         <div>
             <Container>
                 <Row>
-                    <Col>
+                    <Col className="col-md-6">
                         <Row><Col><img src={icon1} alt="organic food" className="organicFood"></img><span className="organic">100% Organic</span> <p className="details1">We source our  products from certified organic farms and suppliers</p></Col></Row>                        <Row className="first">
                             <div className="head">Need Help?</div>
                             <ul>
@@ -28,7 +28,7 @@ export default function Footer() {
                             <Col><img src={icon5} alt="instagram"></img></Col>
                         </Row>
                     </Col>
-                    <Col>
+                    <Col className="col-md-6">
                         <Row><Col><img src={icon2} alt="shipping" className="shipping"></img><span className="organic">Shipping</span>
                         <p className="details1">
                             Fastest Delivery nationwide

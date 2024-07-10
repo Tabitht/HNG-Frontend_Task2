@@ -25,6 +25,7 @@ export default function Checkout() {
         <div className="CheckoutPage">
             <Header />
             <Container>
+                <Container className="mini1">
                 <Row>
                     <Col><img src={pic1} alt="Walnut"></img></Col>
                     <Col>
@@ -39,6 +40,7 @@ export default function Checkout() {
                         <Col><img src={icon3} alt="Add to cart"></img></Col>
                     </Row>
                 </Row>
+                </Container>
                 <Row>
                     <Col><img src={pic2} alt="Chia Seed"></img></Col>
                     <Col>

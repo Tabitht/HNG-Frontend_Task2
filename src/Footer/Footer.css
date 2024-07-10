@@ -71,3 +71,45 @@
     text-align: left;
     color: #000000;
 }
+@media(max-width: 600px){
+    .details1{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+
+    }
+    .about{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+    }
+    .head{
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+    }
+    .second{
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+    }
+    li{
+font-size: 12px;
+font-weight: 400;
+line-height: 14.4px;
+text-align: left;
+
+    }
+    .organic{
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+
+    }
+}
