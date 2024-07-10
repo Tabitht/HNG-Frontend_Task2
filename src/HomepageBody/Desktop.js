@@ -22,12 +22,12 @@ import pic15 from "../images/Rectangle 4.png";
 export default function Desktop() {
     
     return (
-    <div className="destopHomePage">
+    <div className="DesktopHomePage">
         <Header />
         <Container>
             <Row>
                 <Col>
-                    <img src={pic1} alt="Nutify image" className="nutifyImage"></img>
+                    <img src={pic1} alt="Nutify" className="nutifyImage"></img>
                 </Col>
             </Row>
             <Row className="Row3">

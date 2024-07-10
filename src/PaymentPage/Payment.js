@@ -14,11 +14,11 @@ export default function Payment(){
     const navigate = useNavigate();
 
     const handleImageClick = () => {
-        navigate('../CheckoutPage/Checkout');
+        navigate('/Checkout');
     }
 
     return(
-        <div>
+        <div className="PaymentPage">
             <Header />
             <Container>
                 <Row>

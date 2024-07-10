@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Header.css"
-import icon1 from "../icons/Customer.png";
-import icon3 from "../icons/Favorite.png";
-import icon4 from "../icons/Shopping Cart.png";
+import icon1 from "../images/Customer.png";
+import icon3 from "../images/Favorite.png";
+import icon4 from "../images/Shopping Cart.png";
 import icon2 from "../icons/Hazelnut.png";
 import { useNavigate } from 'react-router-dom';
 
@@ -13,7 +13,7 @@ export default function Header() {
     const navigate = useNavigate();
 
             const handleimageClick = () => {
-            navigate('./CheckoutPage/Checkout');
+            navigate('./Checkout');
         }
 
     return(

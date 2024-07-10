@@ -15,11 +15,14 @@ export default function Checkout() {
     const navigate = useNavigate();
 
             const handlebuttonClick = () => {
-            navigate('./PaymentPage/Payment');
+            navigate('./Payment');
+        }
+        const goBack = () => {
+            navigate('/')
         }
 
     return(
-        <div>
+        <div className="CheckoutPage">
             <Header />
             <Container>
                 <Row>
@@ -50,7 +53,7 @@ export default function Checkout() {
                 <Row>
                     <button onClick={handlebuttonClick}>Checkout $50</button>
                 </Row>
-                <button>Go Back</button>
+                <button onClick={goBack}>Go Back</button>
             </Container>
             <Footer />
         </div>
