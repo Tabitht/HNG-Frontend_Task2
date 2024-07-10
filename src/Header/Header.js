@@ -32,7 +32,7 @@ export default function Header() {
                 <Row className="Row2">
                     <Col>Home</Col>
                     <Col>contact us</Col>
-                    <Col>Pricing</Col>
+                    <Col onClick={handleimageClick}>Pricing</Col>
                 </Row>
             </Container>
     </div>
