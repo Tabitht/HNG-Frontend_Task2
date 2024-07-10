@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Header.css"
-import icon1 from "../images/Customer.png";
-import icon3 from "../images/Favorite.png";
 import icon4 from "../icons/Component 1.png";
 import icon2 from "../icons/Hazelnut.png";
 import { useNavigate } from 'react-router-dom';

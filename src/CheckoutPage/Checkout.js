@@ -32,7 +32,7 @@ export default function Checkout() {
                         <p>Walnuts are a type of tree nut that is rich in nutrients and has a distinctive appearance and flavor.</p>
                         <p>walnuts are a delicious and nutritious snack that can be enjoyed on their own or used in a variety of recipes, from baked goods to savory dishes.</p>
                     </Col>
-                    <Row>
+                    <Row className="remove">
                         <Col><img src={icon1} alt="Remove"></img></Col>
                         <Col>Remove</Col>
                         <Col><img src={icon2} alt="remove from cart"></img></Col>

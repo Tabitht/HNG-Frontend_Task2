@@ -14,3 +14,10 @@ gap: 10px;
 opacity: 0px;
 background-color: white;
 }
+.remove{
+    width: 943px;
+height: 163px;
+gap: 0px;
+opacity: 0px;
+background-color: #FAE8DE;
+}
