@@ -11,7 +11,7 @@ export default function Header() {
     const navigate = useNavigate();
 
             const handleimageClick = () => {
-            navigate('./Checkout');
+            navigate('/Checkout');
         }
 
     return(

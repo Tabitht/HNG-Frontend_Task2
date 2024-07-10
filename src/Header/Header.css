@@ -88,7 +88,7 @@ button{
     text-align: left;
     color: #48190D;
 }
-@media(max-width: 600px){
+@media (max-width: 600px) {
     .Row2{
     width: 360px;
     height: 61px;
